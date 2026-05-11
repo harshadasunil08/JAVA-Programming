@@ -1,10 +1,11 @@
-class BreakStatement {
+class ContinueStatement {
     public static void main(String[] args) {
         for (int i=1; i<=5; i++) {
-            if (i == 3) {
-                break;      //Break Statement
+            if (i==3) {
+                continue;
             }
             System.out.println(i+ ": Hello World!");
         }
+        System.out.println("Exit!");
     }    
 }
