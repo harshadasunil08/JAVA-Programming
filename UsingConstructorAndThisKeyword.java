@@ -11,7 +11,7 @@ class Student {
     }
 }
 public class UsingConstructorAndThisKeyword {
-    public static void main(String args[]) {
+    public static void main (String args[]) {
         Student s1 = new Student (1, "AIML");
         Student s2 = new Student (2, "CSE");
         s1.printData();
